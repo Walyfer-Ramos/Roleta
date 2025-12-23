@@ -21,7 +21,7 @@ public class GirarRoleta : MonoBehaviour
         if (girar)
         {
                         //gira a roleta
-            transform.Rotate(0, 0, velocidade * Time.deltaTime);
+            transform.Rotate(0, 0, -velocidade * Time.deltaTime);
 
             if(velocidade > 0)
             {
